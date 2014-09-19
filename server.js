@@ -1,4 +1,7 @@
 //mongod --dbpath=./data --smallfiles
+// git clone https://github.com/akhileshrai/backend.git
+// mongo admin --username root --password bitnami
+
 var express = require('express'),
     employees = require('./routes/employees'),
     app = express(),
